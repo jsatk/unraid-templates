@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>postarr</Name>
+  <Repository>ghcr.io/zarskie/postarr:develop</Repository>
+  <Registry>https://github.com/zarskie/Postarr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <ReadMe/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8001]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/zarskie/Postarr/develop/.github/images/postarr-logo-256.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1777691854</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Path for /config" Target="/config" Default="/mnt/cache/appdata/postarr" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/postarr</Config>
+  <Config Name="Path for Posters" Target="/posters" Default="/mnt/user/data/posters" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/posters</Config>
+  <Config Name="Path for Assets" Target="/assets" Default="/mnt/user/data/assets" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/assets</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Los_Angeles</Config>
+  <Config Name="Host Port" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8001</Config>
+  <TailscaleStateDir/>
+</Container>
