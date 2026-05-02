@@ -8,10 +8,12 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/zarskie/Postarr</Project>
+  <License>https://github.com/zarskie/Postarr/tree/develop?tab=MIT-1-ov-file</License>
   <ReadMe/>
-  <Overview/>
+  <Overview>Transform your Plex library with beautifully matched custom posters.<Overview/>
   <Category/>
+  <Beta/>
   <WebUI>http://[IP]:[PORT:8001]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/zarskie/Postarr/develop/.github/images/postarr-logo-256.png</Icon>
