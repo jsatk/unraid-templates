@@ -7,12 +7,12 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/198585-postarr-support-thread/<Support/>
   <Project>https://github.com/zarskie/Postarr</Project>
   <License>https://github.com/zarskie/Postarr/tree/develop?tab=MIT-1-ov-file</License>
   <ReadMe/>
   <Overview>Transform your Plex library with beautifully matched custom posters.<Overview/>
-  <Category/>
+  <Category>Media Manager</Category>
   <Beta/>
   <WebUI>http://[IP]:[PORT:8001]</WebUI>
   <TemplateURL/>
